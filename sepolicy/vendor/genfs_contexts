@@ -1,6 +1,9 @@
 # DEBUGFS
 genfscon debugfs /mali/                           u:object_r:debugfs_mali:s0
 genfscon debugfs /mali/mem/                       u:object_r:debugfs_mali_mem:s0
+genfscon sysfs /devices/platform/11500000.mali/dma_buf_gpu_mem                    u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/11500000.mali/kprcs                              u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/11500000.mali/total_gpu_mem                      u:object_r:sysfs_gpu:s0
 
 # ion debugfs
 genfscon debugfs /ion/                            u:object_r:debugfs_ion:s0
