@@ -34,6 +34,9 @@ ro.hardware.keystore=mdfpp
 debug.stagefright.ccodec=0
 ro.config.systemaudiodebug=abox&codecdsp
 
+# Blur
+ro.surface_flinger.supports_background_blur=1
+
 # Factory Reset Protection
 ro.frp.pst=/dev/block/persistent
 
