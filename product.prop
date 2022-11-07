@@ -1,0 +1,27 @@
+# Service reschedule
+persist.sys.am.reschedule_service=true
+
+# App Compaction configuration
+persist.sys.appcompact.enable_app_compact=false
+persist.sys.appcompact.full_compact_type=2
+persist.sys.appcompact.some_compact_type=4
+persist.sys.appcompact.compact_throttle_somesome=5000
+persist.sys.appcompact.compact_throttle_somefull=10000
+persist.sys.appcompact.compact_throttle_fullsome=500
+persist.sys.appcompact.compact_throttle_fullfull=10000
+persist.sys.appcompact.compact_throttle_bfgs=600000
+persist.sys.appcompact.compact_throttle_persistent=600000
+persist.sys.appcompact.rss_throttle_kb=12000
+persist.sys.appcompact.delta_rss_throttle_kb=8000
+persist.sys.perf.topAppRenderThreadBoost.enable=false
+
+# Memory management
+persist.sys.fw.bg_apps_limit?=48
+persist.sys.fw.use_trim_settings?=true
+persist.sys.fw.empty_app_percent?=50
+persist.sys.fw.trim_empty_percent?=100
+persist.sys.fw.trim_cache_percent?=100
+persist.sys.fw.trim_enable_memory?=2147483648
+persist.sys.fw.bservice_age?=120000
+persist.sys.fw.bservice_limit?=6
+persist.sys.fw.bservice_enable?=true
