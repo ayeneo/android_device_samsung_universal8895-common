@@ -331,6 +331,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service.samsung-haptic
 
+#Properties
+TARGET_USE_PIXEL_FINGERPRINT := true
+
 # Wifi
 PRODUCT_PACKAGES += \
     macloader \
