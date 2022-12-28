@@ -36,11 +36,6 @@ PRODUCT_PACKAGES += \
     libaudioutils \
     libtinycompress
 
-PRODUCT_PACKAGES += \
-    SamsungDAP
-
-TARGET_EXCLUDES_AUDIOFX := true
-
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     $(COMMON_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
